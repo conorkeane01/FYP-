@@ -13,11 +13,13 @@ import About from "./routes/About";
 import Contact from "./routes/Contact";
 import Navbar from './components/Navbar';
 import ErrorPage from './routes/ErrorPage';
+import "./App.css";
 
 const AppLayout = () => {
     return (
         <>
         <Navbar />
+        
         <Outlet />
         </>
     )
@@ -40,9 +42,8 @@ const router = createBrowserRouter([
                 path: "/contact",
                 element: <Contact />
             },
-
-        ]
-    }
+        ],
+    },
 ]);
 
 createRoot(document.getElementById("root")).render(
