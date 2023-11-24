@@ -10,7 +10,7 @@ import {
 } from "react-router-dom"
 import Home from "./routes/Home";
 import About from "./routes/About";
-import Contact from "./routes/Contact";
+import Weather from "./routes/Weather";
 import Navbar from './components/Navbar';
 import ErrorPage from './routes/ErrorPage';
 import "./App.css";
@@ -39,8 +39,8 @@ const router = createBrowserRouter([
                 element: <About />
             },
             {
-                path: "/contact",
-                element: <Contact />
+                path: "/weather",
+                element: <Weather />
             },
         ],
     },
