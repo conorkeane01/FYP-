@@ -17,8 +17,8 @@ export const SidebarData = [
         cName: "nav-text",
     },
     {
-        title: "Contact",
-        path: "/Contact",
+        title: "Weather",
+        path: "/Weather",
         icons: <FaIcons.FaCertificate />,
         cName: "nav-text",
     },

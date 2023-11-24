@@ -28,9 +28,9 @@ function Navbar() {
       <div className="navbar">
         <Link to="#" className="menu-bars">
           <FaAlignJustify onClick={showSidebar} />
-          Smart Mirror
           <GiMirrorMirror />
         </Link>
+        Smart  mirror
       </div>
 
       <nav className={sidebar ? "nav-menu active": "nav-menu"}>

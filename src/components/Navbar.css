@@ -30,7 +30,8 @@
 
 /* Navbar CSS */
 .navbar {
-  background-color: #4eb35e;
+  position: relative;
+  background-color: #4eb35e ;
   height: 80px;
   width: 100%;
   display: flex;
@@ -46,7 +47,7 @@
 }
 
 .nav-menu {
-  background-color: #4eb35e;
+  background-color: #4eb35e ;
   width: 250px;
   height: 100vh;
   display: flex;
