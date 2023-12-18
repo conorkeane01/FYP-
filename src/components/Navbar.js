@@ -17,8 +17,6 @@ import * as FaIcons from "react-icons/fa"
 import * as AiIcons from "react-icons/ai"
 import { IconContext } from "react-icons/lib";
 
-
-
 function Navbar() {
   const[sidebar, setSidebar] = useState(false);
   const showSidebar = () => setSidebar(!sidebar);

@@ -13,13 +13,13 @@ import About from "./routes/About";
 import Weather from "./routes/Weather";
 import Navbar from './components/Navbar';
 import ErrorPage from './routes/ErrorPage';
+import Sleep from './routes/Sleep';
 import "./App.css";
 
 const AppLayout = () => {
     return (
         <>
         <Navbar />
-        
         <Outlet />
         </>
     )
@@ -41,6 +41,10 @@ const router = createBrowserRouter([
             {
                 path: "/weather",
                 element: <Weather />
+            },
+            {
+                path: "/sleep",
+                element: <Sleep />
             },
         ],
     },

@@ -2,14 +2,17 @@ import React from "react";
 import HeroSection from "../components/HeroSection";
 import "../components/Home.css";
 import video1 from "../videos/video1.mp4";
+import "../components/Navbar.js";
 
 function Home() {
   return (
     <>
-     <div className="index">
+     <div className="Navbar">
      <div className="home">
-    <video src={video1} autoPlay loop muted />
+    <div className="content">
+    <video className="video" src={video1} autoPlay loop muted />
     <h1>Hi</h1>
+     </div>
      </div>
      </div>
     </>
